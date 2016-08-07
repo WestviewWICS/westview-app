@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4226B82E1CF553CE00414D9C /* AnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4226B82D1CF553CE00414D9C /* AnnouncementsViewController.swift */; };
+		4226B8361CF55AF800414D9C /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4226B8351CF55AF800414D9C /* FacebookViewController.swift */; };
+		4226B8381CF56F8700414D9C /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4226B8371CF56F8700414D9C /* InstagramViewController.swift */; };
+		4226B83A1CF572A600414D9C /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4226B8391CF572A600414D9C /* TwitterViewController.swift */; };
+		4226B83C1CF5778900414D9C /* bellScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4226B83B1CF5778900414D9C /* bellScheduleViewController.swift */; };
+		422D47941D5162250031A9C9 /* attendanceprocedure.png in Resources */ = {isa = PBXBuildFile; fileRef = 422D47931D5162250031A9C9 /* attendanceprocedure.png */; };
+		4230479A1CF3ACD5002315CB /* westviewbellschedule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 423047991CF3ACD5002315CB /* westviewbellschedule.jpg */; };
 		423E20CD1CEA74AD0021150F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423E20CC1CEA74AC0021150F /* AppDelegate.swift */; };
 		423E20CF1CEA74AD0021150F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423E20CE1CEA74AD0021150F /* ViewController.swift */; };
 		423E20D21CEA74AD0021150F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423E20D01CEA74AD0021150F /* Main.storyboard */; };
@@ -14,6 +21,30 @@
 		423E20D71CEA74AD0021150F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423E20D51CEA74AD0021150F /* LaunchScreen.storyboard */; };
 		423E20E21CEA74AD0021150F /* WestviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423E20E11CEA74AD0021150F /* WestviewTests.swift */; };
 		423E20ED1CEA74AD0021150F /* WestviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423E20EC1CEA74AD0021150F /* WestviewUITests.swift */; };
+		42783BA51CED5BCA00EBF177 /* MyConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42783BA41CED5BC900EBF177 /* MyConnectViewController.swift */; };
+		42783BA91CEE7B9D00EBF177 /* StudHandBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42783BA81CEE7B9D00EBF177 /* StudHandBookViewController.swift */; };
+		42783BAB1CEE821800EBF177 /* GradesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42783BAA1CEE821800EBF177 /* GradesViewController.swift */; };
+		42783BAD1CEE85FA00EBF177 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42783BAC1CEE85FA00EBF177 /* HomePageViewController.swift */; };
+		4299EBD11D4ACDC000C58F7B /* announcements.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBD01D4ACDC000C58F7B /* announcements.png */; };
+		4299EBD31D4ACE7A00C58F7B /* student_handbook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBD21D4ACE7A00C58F7B /* student_handbook.pdf */; };
+		4299EBE01D4ACFD900C58F7B /* backarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBD41D4ACFD900C58F7B /* backarrow.png */; };
+		4299EBE11D4ACFD900C58F7B /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBD51D4ACFD900C58F7B /* bell.png */; };
+		4299EBE21D4ACFD900C58F7B /* facebooklogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBD61D4ACFD900C58F7B /* facebooklogo.jpg */; };
+		4299EBE31D4ACFD900C58F7B /* forwardarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBD71D4ACFD900C58F7B /* forwardarrow.png */; };
+		4299EBE41D4ACFD900C58F7B /* instagramlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBD81D4ACFD900C58F7B /* instagramlogo.png */; };
+		4299EBE51D4ACFD900C58F7B /* myconnectlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBD91D4ACFD900C58F7B /* myconnectlogo.png */; };
+		4299EBE61D4ACFD900C58F7B /* newwv.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBDA1D4ACFD900C58F7B /* newwv.png */; };
+		4299EBE71D4ACFD900C58F7B /* studenthandbook.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBDB1D4ACFD900C58F7B /* studenthandbook.png */; };
+		4299EBE81D4ACFD900C58F7B /* synergylogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBDC1D4ACFD900C58F7B /* synergylogo.png */; };
+		4299EBE91D4ACFD900C58F7B /* twitterlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBDD1D4ACFD900C58F7B /* twitterlogo.png */; };
+		4299EBEA1D4ACFD900C58F7B /* westviewlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBDE1D4ACFD900C58F7B /* westviewlogo.png */; };
+		4299EBEB1D4ACFD900C58F7B /* wv.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBDF1D4ACFD900C58F7B /* wv.png */; };
+		4299EBEE1D4FE80600C58F7B /* attendance.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBEC1D4FE80600C58F7B /* attendance.png */; };
+		4299EBEF1D4FE80600C58F7B /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBED1D4FE80600C58F7B /* calendar.png */; };
+		4299EBF31D4FEF5E00C58F7B /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4299EBF21D4FEF5E00C58F7B /* AttendanceViewController.swift */; };
+		4299EBF51D4FF28100C58F7B /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4299EBF41D4FF28100C58F7B /* CalendarViewController.swift */; };
+		4299EBF91D50341600C58F7B /* westviewtransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 4299EBF81D50341600C58F7B /* westviewtransparent.png */; };
+		42B9EEC21D57A88500F1BC72 /* attendance_procedures.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42B9EEC11D57A88500F1BC72 /* attendance_procedures.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +65,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4226B82D1CF553CE00414D9C /* AnnouncementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsViewController.swift; sourceTree = "<group>"; };
+		4226B8351CF55AF800414D9C /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		4226B8371CF56F8700414D9C /* InstagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
+		4226B8391CF572A600414D9C /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		4226B83B1CF5778900414D9C /* bellScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = bellScheduleViewController.swift; path = ../bellScheduleViewController.swift; sourceTree = "<group>"; };
+		422D47931D5162250031A9C9 /* attendanceprocedure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = attendanceprocedure.png; path = ../../graphics/attendanceprocedure.png; sourceTree = "<group>"; };
+		423047991CF3ACD5002315CB /* westviewbellschedule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = westviewbellschedule.jpg; path = ../../../../Downloads/westviewbellschedule.jpg; sourceTree = "<group>"; };
 		423E20C91CEA74AC0021150F /* Westview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		423E20CC1CEA74AC0021150F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		423E20CE1CEA74AD0021150F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +85,30 @@
 		423E20E81CEA74AD0021150F /* WestviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		423E20EC1CEA74AD0021150F /* WestviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestviewUITests.swift; sourceTree = "<group>"; };
 		423E20EE1CEA74AD0021150F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42783BA41CED5BC900EBF177 /* MyConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConnectViewController.swift; sourceTree = "<group>"; };
+		42783BA81CEE7B9D00EBF177 /* StudHandBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudHandBookViewController.swift; sourceTree = "<group>"; };
+		42783BAA1CEE821800EBF177 /* GradesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradesViewController.swift; sourceTree = "<group>"; };
+		42783BAC1CEE85FA00EBF177 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		4299EBD01D4ACDC000C58F7B /* announcements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = announcements.png; path = ../../graphics/announcements.png; sourceTree = "<group>"; };
+		4299EBD21D4ACE7A00C58F7B /* student_handbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = student_handbook.pdf; path = ../../student_handbook.pdf; sourceTree = "<group>"; };
+		4299EBD41D4ACFD900C58F7B /* backarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backarrow.png; path = ../../graphics/backarrow.png; sourceTree = "<group>"; };
+		4299EBD51D4ACFD900C58F7B /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bell.png; path = ../../graphics/bell.png; sourceTree = "<group>"; };
+		4299EBD61D4ACFD900C58F7B /* facebooklogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = facebooklogo.jpg; path = ../../graphics/facebooklogo.jpg; sourceTree = "<group>"; };
+		4299EBD71D4ACFD900C58F7B /* forwardarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forwardarrow.png; path = ../../graphics/forwardarrow.png; sourceTree = "<group>"; };
+		4299EBD81D4ACFD900C58F7B /* instagramlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instagramlogo.png; path = ../../graphics/instagramlogo.png; sourceTree = "<group>"; };
+		4299EBD91D4ACFD900C58F7B /* myconnectlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myconnectlogo.png; path = ../../graphics/myconnectlogo.png; sourceTree = "<group>"; };
+		4299EBDA1D4ACFD900C58F7B /* newwv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newwv.png; path = ../../graphics/newwv.png; sourceTree = "<group>"; };
+		4299EBDB1D4ACFD900C58F7B /* studenthandbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = studenthandbook.png; path = ../../graphics/studenthandbook.png; sourceTree = "<group>"; };
+		4299EBDC1D4ACFD900C58F7B /* synergylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = synergylogo.png; path = ../../graphics/synergylogo.png; sourceTree = "<group>"; };
+		4299EBDD1D4ACFD900C58F7B /* twitterlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitterlogo.png; path = ../../graphics/twitterlogo.png; sourceTree = "<group>"; };
+		4299EBDE1D4ACFD900C58F7B /* westviewlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = westviewlogo.png; path = ../../graphics/westviewlogo.png; sourceTree = "<group>"; };
+		4299EBDF1D4ACFD900C58F7B /* wv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wv.png; path = ../../graphics/wv.png; sourceTree = "<group>"; };
+		4299EBEC1D4FE80600C58F7B /* attendance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = attendance.png; path = ../../graphics/attendance.png; sourceTree = "<group>"; };
+		4299EBED1D4FE80600C58F7B /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = ../../graphics/calendar.png; sourceTree = "<group>"; };
+		4299EBF21D4FEF5E00C58F7B /* AttendanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
+		4299EBF41D4FF28100C58F7B /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		4299EBF81D50341600C58F7B /* westviewtransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = westviewtransparent.png; path = ../../graphics/westviewtransparent.png; sourceTree = "<group>"; };
+		42B9EEC11D57A88500F1BC72 /* attendance_procedures.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = attendance_procedures.pdf; path = ../../attendance_procedures.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +159,40 @@
 		423E20CB1CEA74AC0021150F /* Westview */ = {
 			isa = PBXGroup;
 			children = (
-				423E20CC1CEA74AC0021150F /* AppDelegate.swift */,
-				423E20CE1CEA74AD0021150F /* ViewController.swift */,
 				423E20D01CEA74AD0021150F /* Main.storyboard */,
+				4299EBEC1D4FE80600C58F7B /* attendance.png */,
+				422D47931D5162250031A9C9 /* attendanceprocedure.png */,
+				42B9EEC11D57A88500F1BC72 /* attendance_procedures.pdf */,
+				4299EBED1D4FE80600C58F7B /* calendar.png */,
+				4299EBF21D4FEF5E00C58F7B /* AttendanceViewController.swift */,
+				4299EBF41D4FF28100C58F7B /* CalendarViewController.swift */,
+				4299EBF81D50341600C58F7B /* westviewtransparent.png */,
+				4226B8351CF55AF800414D9C /* FacebookViewController.swift */,
+				423E20CC1CEA74AC0021150F /* AppDelegate.swift */,
+				42783BA81CEE7B9D00EBF177 /* StudHandBookViewController.swift */,
+				4226B83B1CF5778900414D9C /* bellScheduleViewController.swift */,
+				423E20CE1CEA74AD0021150F /* ViewController.swift */,
+				42783BA41CED5BC900EBF177 /* MyConnectViewController.swift */,
+				42783BAA1CEE821800EBF177 /* GradesViewController.swift */,
+				42783BAC1CEE85FA00EBF177 /* HomePageViewController.swift */,
+				4226B8371CF56F8700414D9C /* InstagramViewController.swift */,
+				4226B8391CF572A600414D9C /* TwitterViewController.swift */,
+				4226B82D1CF553CE00414D9C /* AnnouncementsViewController.swift */,
+				4299EBD01D4ACDC000C58F7B /* announcements.png */,
+				4299EBD21D4ACE7A00C58F7B /* student_handbook.pdf */,
+				4299EBD41D4ACFD900C58F7B /* backarrow.png */,
+				4299EBD51D4ACFD900C58F7B /* bell.png */,
+				4299EBD61D4ACFD900C58F7B /* facebooklogo.jpg */,
+				4299EBD71D4ACFD900C58F7B /* forwardarrow.png */,
+				4299EBD81D4ACFD900C58F7B /* instagramlogo.png */,
+				4299EBD91D4ACFD900C58F7B /* myconnectlogo.png */,
+				4299EBDA1D4ACFD900C58F7B /* newwv.png */,
+				4299EBDB1D4ACFD900C58F7B /* studenthandbook.png */,
+				4299EBDC1D4ACFD900C58F7B /* synergylogo.png */,
+				4299EBDD1D4ACFD900C58F7B /* twitterlogo.png */,
+				4299EBDE1D4ACFD900C58F7B /* westviewlogo.png */,
+				4299EBDF1D4ACFD900C58F7B /* wv.png */,
+				423047991CF3ACD5002315CB /* westviewbellschedule.jpg */,
 				423E20D31CEA74AD0021150F /* Assets.xcassets */,
 				423E20D51CEA74AD0021150F /* LaunchScreen.storyboard */,
 				423E20D81CEA74AD0021150F /* Info.plist */,
@@ -193,6 +286,7 @@
 				TargetAttributes = {
 					423E20C81CEA74AC0021150F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MVRMJ8UYVX;
 					};
 					423E20DC1CEA74AD0021150F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -231,7 +325,27 @@
 			files = (
 				423E20D71CEA74AD0021150F /* LaunchScreen.storyboard in Resources */,
 				423E20D41CEA74AD0021150F /* Assets.xcassets in Resources */,
+				4299EBE51D4ACFD900C58F7B /* myconnectlogo.png in Resources */,
+				4299EBE41D4ACFD900C58F7B /* instagramlogo.png in Resources */,
+				4299EBE11D4ACFD900C58F7B /* bell.png in Resources */,
+				4299EBD11D4ACDC000C58F7B /* announcements.png in Resources */,
+				4299EBE21D4ACFD900C58F7B /* facebooklogo.jpg in Resources */,
 				423E20D21CEA74AD0021150F /* Main.storyboard in Resources */,
+				4299EBE81D4ACFD900C58F7B /* synergylogo.png in Resources */,
+				4299EBD31D4ACE7A00C58F7B /* student_handbook.pdf in Resources */,
+				4299EBE31D4ACFD900C58F7B /* forwardarrow.png in Resources */,
+				4299EBE01D4ACFD900C58F7B /* backarrow.png in Resources */,
+				4299EBEB1D4ACFD900C58F7B /* wv.png in Resources */,
+				4299EBE71D4ACFD900C58F7B /* studenthandbook.png in Resources */,
+				4299EBE61D4ACFD900C58F7B /* newwv.png in Resources */,
+				4299EBF91D50341600C58F7B /* westviewtransparent.png in Resources */,
+				4299EBEE1D4FE80600C58F7B /* attendance.png in Resources */,
+				4230479A1CF3ACD5002315CB /* westviewbellschedule.jpg in Resources */,
+				42B9EEC21D57A88500F1BC72 /* attendance_procedures.pdf in Resources */,
+				422D47941D5162250031A9C9 /* attendanceprocedure.png in Resources */,
+				4299EBEF1D4FE80600C58F7B /* calendar.png in Resources */,
+				4299EBEA1D4ACFD900C58F7B /* westviewlogo.png in Resources */,
+				4299EBE91D4ACFD900C58F7B /* twitterlogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +370,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4226B82E1CF553CE00414D9C /* AnnouncementsViewController.swift in Sources */,
+				42783BAB1CEE821800EBF177 /* GradesViewController.swift in Sources */,
+				4226B83A1CF572A600414D9C /* TwitterViewController.swift in Sources */,
+				4226B8361CF55AF800414D9C /* FacebookViewController.swift in Sources */,
+				42783BAD1CEE85FA00EBF177 /* HomePageViewController.swift in Sources */,
+				4226B83C1CF5778900414D9C /* bellScheduleViewController.swift in Sources */,
+				42783BA91CEE7B9D00EBF177 /* StudHandBookViewController.swift in Sources */,
 				423E20CF1CEA74AD0021150F /* ViewController.swift in Sources */,
+				4299EBF51D4FF28100C58F7B /* CalendarViewController.swift in Sources */,
 				423E20CD1CEA74AD0021150F /* AppDelegate.swift in Sources */,
+				42783BA51CED5BCA00EBF177 /* MyConnectViewController.swift in Sources */,
+				4226B8381CF56F8700414D9C /* InstagramViewController.swift in Sources */,
+				4299EBF31D4FEF5E00C58F7B /* AttendanceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +526,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Westview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wicscalicoders.Westview;
+				PRODUCT_BUNDLE_IDENTIFIER = wicsclub.westview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,10 +541,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Westview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wicscalicoders.Westview;
+				PRODUCT_BUNDLE_IDENTIFIER = wicsclub.westview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +617,7 @@
 				423E20F31CEA74AD0021150F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		423E20F41CEA74AD0021150F /* Build configuration list for PBXNativeTarget "WestviewTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +626,7 @@
 				423E20F61CEA74AD0021150F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		423E20F71CEA74AD0021150F /* Build configuration list for PBXNativeTarget "WestviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +635,7 @@
 				423E20F91CEA74AD0021150F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
